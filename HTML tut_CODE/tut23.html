@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation menu</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .navbar{
+            background-color: rgb(209, 199, 199);
+        }
+        .navbar li{
+            float: left;
+            list-style: none;
+            padding: 20px 30px ;
+        }
+        .navbar li a{
+            text-decoration: none; /* To Remove The line*/
+        }
+        .navbar li input{
+            border: 2px solid rgb(129, 124, 124) ;
+            border-radius: 4px;
+            margin: 0px 150px;
+        }
+
+        .navbar ul{
+            overflow: auto;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar"> <!--// just like a div tag used to separate navigation bar from other data-->
+            <ul>
+                <li> <a href="https://youtube.com">Home</a> </li>
+                <li> <a href="https://youtube.com">Blogs</a> </li>
+                <li> <a href="https://youtube.com">Services</a> </li>
+                <li> <a href="https://youtube.com"> About Us</a></li>
+                <li>Search: <input type="text"></li>
+            </ul>
+        </nav>
+    </header>
+
+</body>
+</html>
